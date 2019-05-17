@@ -4,7 +4,6 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
 
 //A literal object.
 
-console.log('test')
 /*
 1.  Declare a variable named `books` and create the following properties (key-value pairs to the object:
     - add a key named `title` and a string value of "The Obstacle is the Way"
@@ -15,7 +14,15 @@ console.log('test')
     Console.log the object.
 */
     
-  
+var books = {
+    title: "The Obstacle is the Way",
+    author: "Ryan Holiday",
+    category: "Self Help",
+    pages: 200
+};
+
+console.log(books);
+
 /*
 2.  Declare a variable named `dog` and create the following properties (key-value pairs) to the object:
    
