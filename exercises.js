@@ -106,6 +106,15 @@ console.log(plainBox);
     console.log the object
 */
 
+var stockCar = {
+    model: 'Ford',
+    year: 2012,
+    automaticTransmission: true,
+    driver: null,
+    passengers: [],
+}
+
+console.log(stockCar);
 
 /*
 
@@ -123,6 +132,7 @@ console.log(plainBox);
    the return value in a variable named `completePerson`. Use `console.log` three times to print the entire object, just 
    the value at `name`, and just the value at `age`.
  */
+
 
 
 /*
